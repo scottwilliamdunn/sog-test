@@ -19,3 +19,12 @@ Then in the newly created `.env` file ensure that the value for `DB_CONNECTION` 
 
 Then, to run the project locally you can set it up using [Laravel Valet](https://laravel.com/docs/8.x/valet) or by
 running the command `php artisan serve`.
+
+The main files involved in my work are:
+- `app/Http/Controllers/FireController.php`
+- `app/Http/Controllers/PageController.php`
+- `resources/css/app.css`
+- `resources/views/app.blade.php`
+- `resources/views/home.blade.php`
+- `resources/views/view.blade.php`
+- `routes/web.php`
