@@ -1,6 +1,6 @@
 ## This is Scott's technical test
 
-It has been built using laravel 8.83.27
+It has been built using Laravel 8.83.27
 
 To start the project follow these steps:
 
