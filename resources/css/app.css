@@ -1,0 +1,41 @@
+.table-container {
+    padding: 20px;
+    width: 100%;
+}
+.forest-header {
+    padding: 20px;
+    text-align: center;
+}
+.fires-table, .pagination-section {
+    margin: auto;
+    padding: 20px;
+    align-content: center;
+}
+.fires-table > thead {
+    background-color: burlywood;
+}
+.fires-table > tbody > .even-row {
+    background-color: antiquewhite;
+}
+.fires-table > tbody > .odd-row {
+    background-color: cornsilk;
+}
+.page-buttons, #pagination-text {
+    width: fit-content;
+    margin: auto;
+}
+.page-buttons > button {
+    padding: 8px;
+    margin: 2px;
+    font-size: 20px;
+}
+td, th {
+    padding: 8px;
+    text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    .fires-table, .pagination-section{
+        width: 60%;
+    }
+}
